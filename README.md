@@ -32,8 +32,8 @@ $ sudo apt-get install git-all
 # Configuration: 
 1. Clone the repository
 ```
-  $ git clone https://github.com/aditi1421/CS330-IIT-
-  $ cd CS330-IIT
+  $ git clone https://github.com/baguilarislas/CS330-codingAssignment.git
+  $ cd CS330-codingAssignment
 ```
 2. Run unit tests 
 ```
@@ -44,18 +44,18 @@ $ sudo apt-get install git-all
  $ python3 -m coverage report
 ```
 To run the execuatble: 
-First part , run cs330.py, the Security Device simulator:
-Unlock code - 220871
-Lock code - 220874
+First part , run machine.py, the Security Device simulator:
 ```
-$ ./cs330.py
+$ ./machine.py
 ```
 Second part, run 
 ```
- $ ./randomgen.py
+ $ ./time_test.py
 ```
+This is the brute force attack simulator
+
 # Author:
-Aditi Kumar 
+Braulio Aguilar Islas
 
 # Questions:
-akumar91@hawk.iit.edu
+baguilarislas@hawk.iit.edu
